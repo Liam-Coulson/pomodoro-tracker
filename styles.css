@@ -2,33 +2,33 @@
     font-family: "Arial", "Verdana", sans-serif;
 }
 
-/* #content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
 #header {
     background-color: cornflowerblue;
 }
 
+.header {
+    /* Header CLASS, applies to footer too */
+    display: flex;
+    /* align-self: stretch; */
+    justify-content: space-around;
+    color: darkblue;
+    font-weight: bold;
+    padding: 16px;
+}
 
-#footer {
-    background-color: bisque;
+#inputForm {
+    /* align-self: center; */
+    max-width: 80vi;
+    display: flex;
+    justify-content: space-around;
 }
 
 #spacer {
     flex: 1;
 }
 
-.header {
-    /* Header CLASS, applies to footer too */
-    display: flex;
-    align-self: stretch;
-    justify-content: space-around;
-    color: darkblue;
-    font-weight: bold;
-    padding: 16px;
+#footer {
+    background-color: bisque;
 }
 
 html {
